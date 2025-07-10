@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+
+# Logs and experiment outputs
+*.log
+.v*/
+v*/
+checkpoints/
+runs/
+
+# Data
+data/
+*.csv
+*.mat
+*.tsv
+
+# Models
+*.pt
+*.pth
+*.ckpt
