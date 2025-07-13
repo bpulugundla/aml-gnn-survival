@@ -36,11 +36,15 @@ python train.py --exp v1 --lr 1e-4 --batch_size 32 --epochs 100
 ## Project Structure
 
 ```
-├── experiments # Various model runs
+├── boruta
+│   └── select_features.py # Boruta-based feature selection
+├── gems 
+│   ├── compute_centralities.py # Compute centrality scores
+│   └── create_personalised_gems.m # Create personalized models
+├── gnn_recipes # Various GNN model recipes
 │   ├── Boruta-E4 # Saved experiment runs, logs, model outputs
 │   ├── Boruta-GEMs-E6
 │   └── GEMs-Weighted-E7
-├── gems
 ├── LICENSE
 ├── README.md
 ├── requirements.txt # Python dependencies
